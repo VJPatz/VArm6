@@ -1,4 +1,4 @@
-# VArm6 - 6DOF Open Source Joystick-Controlled Robotic Arm Stack
+# VArm6 - 6DOF Open Source Joystick-Controlled Robotic Arm
 
 ![Platform](https://img.shields.io/badge/platform-Arduino%20Mega%202560-blue)
 ![Framework](https://img.shields.io/badge/framework-PlatformIO-orange)
