@@ -1,0 +1,2996 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "241efc51-4863-451d-81aa-6bc086b61b32")
+	(paper "A2")
+	(title_block
+		(title "VArm6 - Robotic Arm Wiring")
+		(date "2026-08-17")
+		(rev "A")
+		(company "VArm6 Project")
+	)
+	(lib_symbols
+		(symbol "VArm6:Arduino_Mega2560"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 23.28 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Arduino_Mega2560"
+				(at 0 -20.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Arduino_Mega2560_0_1"
+				(rectangle
+					(start -12.7 -17.78)
+					(end 12.7 17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Arduino Mega 2560"
+					(at 0 20.28 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Arduino_Mega2560_1_1"
+				(pin passive line
+					(at 12.7 3.81 0)
+					(length 10.16)
+					(name "5V"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5V"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -11.43 180)
+					(length 10.16)
+					(name "SDA20"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -15.24 180)
+					(length 10.16)
+					(name "SCL21"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 15.24 180)
+					(length 10.16)
+					(name "A8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 11.43 180)
+					(length 10.16)
+					(name "A9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 180)
+					(length 10.16)
+					(name "A10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 3.81 180)
+					(length 10.16)
+					(name "A11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 180)
+					(length 10.16)
+					(name "A12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -3.81 180)
+					(length 10.16)
+					(name "A13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "A13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 180)
+					(length 10.16)
+					(name "D18"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "D18"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 0)
+					(length 10.16)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -3.81 0)
+					(length 10.16)
+					(name "VIN"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "VIN"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VArm6:Joystick_5pin"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 15.36 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Joystick"
+				(at 0 -13.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Joystick_5pin_0_1"
+				(rectangle
+					(start -6.35 -10.16)
+					(end 6.35 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Joystick"
+					(at 0 12.66 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Joystick_5pin_1_1"
+				(pin passive line
+					(at -6.35 7.62 180)
+					(length 10.16)
+					(name "VCC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 3.81 180)
+					(length 10.16)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 180)
+					(length 10.16)
+					(name "X"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -3.81 180)
+					(length 10.16)
+					(name "Y"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -7.62 180)
+					(length 10.16)
+					(name "SW"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VArm6:PCA9685"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 19.265 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PCA9685"
+				(at 0 -15.065 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PCA9685_0_1"
+				(rectangle
+					(start -8.89 -12.065)
+					(end 8.89 12.065)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "16-ch PWM Driver"
+					(at 0 16.765 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "PCA9685"
+					(at 0 14.565 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "PCA9685_1_1"
+				(pin passive line
+					(at 8.89 9.525 0)
+					(length 10.16)
+					(name "CH0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "CH0"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 5.715 0)
+					(length 10.16)
+					(name "CH1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "CH1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 1.905 0)
+					(length 10.16)
+					(name "CH2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "CH2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -1.905 0)
+					(length 10.16)
+					(name "CH3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "CH3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -5.715 0)
+					(length 10.16)
+					(name "CH4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "CH4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -9.525 0)
+					(length 10.16)
+					(name "CH5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "CH5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -3.81 180)
+					(length 10.16)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 3.81 180)
+					(length 10.16)
+					(name "SCL"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "SCL"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 7.62 180)
+					(length 10.16)
+					(name "SDA"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "SDA"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -7.62 180)
+					(length 10.16)
+					(name "V+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "V+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 0 180)
+					(length 10.16)
+					(name "VCC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "VCC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VArm6:Servo_3pin"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at 0 11.55 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Servo"
+				(at 0 -9.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Servo_3pin_0_1"
+				(rectangle
+					(start -5.08 -6.35)
+					(end 5.08 6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Servo"
+					(at 0 8.85 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Servo_3pin_1_1"
+				(pin passive line
+					(at -5.08 3.81 180)
+					(length 10.16)
+					(name "SIG"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 180)
+					(length 10.16)
+					(name "V+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 180)
+					(length 10.16)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "VArm6 -- 6-DOF Robotic Arm Wiring"
+		(exclude_from_sim no)
+		(at 318.77 62.088 0)
+		(effects
+			(font
+				(size 3.2 3.2)
+				(bold yes)
+			)
+		)
+		(uuid "5e850990-cf9b-47ed-b08b-8a7c8845fcb6")
+	)
+	(text "CH1 -> Shoulder"
+		(exclude_from_sim no)
+		(at 472.504 137.096 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+		)
+		(uuid "775ec2a3-33fb-463b-84c0-fe8f7d211844")
+	)
+	(text "CH3 -> Wrist"
+		(exclude_from_sim no)
+		(at 472.504 213.096 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+		)
+		(uuid "9ed20bfd-164c-46b8-9cac-fa48b4fc44a5")
+	)
+	(text "CH4 -> Rotate"
+		(exclude_from_sim no)
+		(at 472.504 251.096 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+		)
+		(uuid "a3a50d51-6392-4f36-8ec8-e631a1264898")
+	)
+	(text "Joysticks -> Arduino Mega  |  PCA9685 -> Mega via I2C (SDA=20, SCL=21)  |  PCA9685 CH0-5 -> Servos"
+		(exclude_from_sim no)
+		(at 318.77 69.088 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+		)
+		(uuid "d8dcfd27-853c-469b-9dff-145d6a1ca39a")
+	)
+	(text "CH0 -> Base"
+		(exclude_from_sim no)
+		(at 472.504 99.096 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+		)
+		(uuid "ddf6d770-ec36-4d0b-bce5-cfc5dd1e2fa8")
+	)
+	(text "CH2 -> Elbow"
+		(exclude_from_sim no)
+		(at 472.504 175.096 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+		)
+		(uuid "dfc14d6d-26e2-4b6e-b1e8-433db32c8a80")
+	)
+	(text "CH5 -> Grip"
+		(exclude_from_sim no)
+		(at 472.504 289.096 0)
+		(effects
+			(font
+				(size 1.1 1.1)
+			)
+		)
+		(uuid "f2ae15dc-2466-4989-8986-68a785d89473")
+	)
+	(text "WARNING: Use a SEPARATE power supply for servos (5-6V). Do NOT power servos through the Arduino."
+		(exclude_from_sim no)
+		(at 318.77 329.946 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+				(bold yes)
+			)
+		)
+		(uuid "f74bf6b4-2645-4928-8352-6c2e128fea3c")
+	)
+	(wire
+		(pts
+			(xy 443.23 99.16) (xy 423.23 99.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "0afb99a6-66d7-45b8-aa67-06064c641013")
+	)
+	(wire
+		(pts
+			(xy 246.38 207.88) (xy 226.38 207.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "113b3977-66a5-4d7e-834c-92a40c34dbfd")
+	)
+	(wire
+		(pts
+			(xy 443.23 254.97) (xy 423.23 254.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "13818a95-deff-47c2-b0b4-b629f7f68b4d")
+	)
+	(wire
+		(pts
+			(xy 186.69 150.73) (xy 166.69 150.73)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "1e050fe1-dfa0-40f0-8459-4e8434630e53")
+	)
+	(wire
+		(pts
+			(xy 443.23 133.35) (xy 423.23 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "1e79a461-50e5-4c7a-9f51-efbe7ae51e38")
+	)
+	(wire
+		(pts
+			(xy 246.38 196.45) (xy 226.38 196.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "1ed0adf2-abf0-48a9-8aae-ec318d5555c7")
+	)
+	(wire
+		(pts
+			(xy 443.23 171.35) (xy 423.23 171.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "1fbe8198-9d2e-43de-8865-987c62ac9ec2")
+	)
+	(wire
+		(pts
+			(xy 186.69 146.92) (xy 166.69 146.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "23ceb9ed-1828-4cee-8f35-0f949cdb110a")
+	)
+	(wire
+		(pts
+			(xy 443.23 247.35) (xy 423.23 247.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "267769b8-6ee8-4a6d-8940-b2dccd7a55d4")
+	)
+	(wire
+		(pts
+			(xy 364.85 194.925) (xy 384.85 194.925)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "28440a71-01ce-4291-85de-1470e471eb9d")
+	)
+	(wire
+		(pts
+			(xy 443.23 137.16) (xy 423.23 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "29962f90-6661-44b5-acbd-f576545d8a2c")
+	)
+	(wire
+		(pts
+			(xy 364.85 191.115) (xy 384.85 191.115)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "30ebcb2a-e0e6-408b-8510-b4d4c6675583")
+	)
+	(wire
+		(pts
+			(xy 186.76 185.16) (xy 166.76 185.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "3256d5fa-8032-4def-af0d-b3b943adaecf")
+	)
+	(wire
+		(pts
+			(xy 443.23 213.16) (xy 423.23 213.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "3a533a32-a6b3-4fe5-a179-a4bb74054632")
+	)
+	(wire
+		(pts
+			(xy 186.76 192.78) (xy 166.76 192.78)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "43ea28d9-1043-4a82-845e-416bb3257b34")
+	)
+	(wire
+		(pts
+			(xy 186.69 235.82) (xy 166.69 235.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "47bf16f7-fadd-4537-9cc6-bf7015b60243")
+	)
+	(wire
+		(pts
+			(xy 186.69 143.11) (xy 166.69 143.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "497a596f-4926-437d-82d0-ca6bd865f0ee")
+	)
+	(wire
+		(pts
+			(xy 186.76 188.97) (xy 166.76 188.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "57c8a6dd-92ce-4a7f-8a1b-f2fb936a177f")
+	)
+	(wire
+		(pts
+			(xy 443.23 251.16) (xy 423.23 251.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "5a8d89dc-692a-4abb-8837-7a88778b728f")
+	)
+	(wire
+		(pts
+			(xy 186.69 139.3) (xy 166.69 139.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "5c401ef7-aa4a-47c3-aee6-a62a6b12dbe4")
+	)
+	(wire
+		(pts
+			(xy 443.23 216.97) (xy 423.23 216.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "6752d455-e60f-429b-909e-ee5395b4950e")
+	)
+	(wire
+		(pts
+			(xy 443.23 209.35) (xy 423.23 209.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "6860330a-4072-4dd9-81ed-764501a16318")
+	)
+	(wire
+		(pts
+			(xy 443.23 95.35) (xy 423.23 95.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "6e83f6bd-8ba1-4edf-9f8d-f776b87e3844")
+	)
+	(wire
+		(pts
+			(xy 326.75 185.4) (xy 306.75 185.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "71519f3b-bb83-478f-b502-a5a183f7389c")
+	)
+	(wire
+		(pts
+			(xy 443.23 102.97) (xy 423.23 102.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "7725165b-e0f5-42fa-9ce1-c73209f988e9")
+	)
+	(wire
+		(pts
+			(xy 364.85 187.305) (xy 384.85 187.305)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "7a134e9d-621a-47f8-b43c-e28fa5afcef4")
+	)
+	(wire
+		(pts
+			(xy 443.23 175.16) (xy 423.23 175.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "7b20f378-c623-4e4e-8e16-56aeb189a554")
+	)
+	(wire
+		(pts
+			(xy 443.23 140.97) (xy 423.23 140.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "80bdaaa6-aff2-427b-9d51-65581230ec66")
+	)
+	(wire
+		(pts
+			(xy 186.69 154.54) (xy 166.69 154.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "80f8e82c-573f-440d-8cd0-5caa4ab3f1fc")
+	)
+	(wire
+		(pts
+			(xy 246.38 200.26) (xy 226.38 200.26)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "969728c8-2d74-4dd7-a6d0-9649b608385d")
+	)
+	(wire
+		(pts
+			(xy 443.23 292.97) (xy 423.23 292.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "9a7b8f9b-dbc0-4a91-aee3-69f3a4fcc24f")
+	)
+	(wire
+		(pts
+			(xy 186.69 239.63) (xy 166.69 239.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "9a9885b1-5066-4e6c-bc96-68a81ee82932")
+	)
+	(wire
+		(pts
+			(xy 326.75 193.02) (xy 306.75 193.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "a44c1ef0-4d78-463c-8cd5-680b84970d73")
+	)
+	(wire
+		(pts
+			(xy 326.75 189.21) (xy 306.75 189.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "aebb78fd-a1f1-459f-86f6-6cd2638d8bbd")
+	)
+	(wire
+		(pts
+			(xy 246.38 185.02) (xy 226.38 185.02)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "af99dbe3-58d0-43fd-99d5-b81e5aaf22d3")
+	)
+	(wire
+		(pts
+			(xy 246.38 177.4) (xy 226.38 177.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "b0298f7f-ecab-4a58-9ceb-90ab2566876f")
+	)
+	(wire
+		(pts
+			(xy 443.23 289.16) (xy 423.23 289.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "b19db021-e8b8-47b3-aa97-a8a8e334beb3")
+	)
+	(wire
+		(pts
+			(xy 364.85 198.735) (xy 384.85 198.735)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "b7a18b19-0fa8-4255-8f73-27bc6335fea8")
+	)
+	(wire
+		(pts
+			(xy 443.23 285.35) (xy 423.23 285.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "c0f12196-aa29-429f-a074-1cb8a7a854d6")
+	)
+	(wire
+		(pts
+			(xy 186.76 196.59) (xy 166.76 196.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "c224c15b-cace-4d2e-b9f2-6a8147f4c040")
+	)
+	(wire
+		(pts
+			(xy 326.75 200.64) (xy 306.75 200.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "c6518346-6943-4439-8d68-ca28f0ab8acb")
+	)
+	(wire
+		(pts
+			(xy 186.69 243.44) (xy 166.69 243.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "cceffe5a-5c90-43ac-a8cc-1f803d834062")
+	)
+	(wire
+		(pts
+			(xy 246.38 192.64) (xy 226.38 192.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "d3e0f9ba-24fa-4042-9543-829548f6eebb")
+	)
+	(wire
+		(pts
+			(xy 186.69 232.01) (xy 166.69 232.01)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "d8c88ca6-c9e5-40ee-ad64-c7c2dfcb1c88")
+	)
+	(wire
+		(pts
+			(xy 246.38 181.21) (xy 226.38 181.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "dc4be126-6d19-4690-8557-eedddf7ea3c6")
+	)
+	(wire
+		(pts
+			(xy 364.85 202.545) (xy 384.85 202.545)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "deda2f0d-0a68-4fbf-a3c4-2e8744c11a46")
+	)
+	(wire
+		(pts
+			(xy 364.85 183.495) (xy 384.85 183.495)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "dfe70365-06db-47c1-8a0a-bd4c1db56528")
+	)
+	(wire
+		(pts
+			(xy 246.38 188.83) (xy 226.38 188.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "e8dbadc7-b750-4d6b-880f-4c925990b435")
+	)
+	(wire
+		(pts
+			(xy 246.38 204.07) (xy 226.38 204.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "eff23129-d45d-437d-aa69-cf1ddd9a3280")
+	)
+	(wire
+		(pts
+			(xy 443.23 178.97) (xy 423.23 178.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "f631eb50-196f-451d-859d-c60f8f14d02b")
+	)
+	(wire
+		(pts
+			(xy 326.75 196.83) (xy 306.75 196.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(uuid "f895843e-7710-4bcf-be03-d3cbd178695e")
+	)
+	(label "J1_X"
+		(at 226.38 177.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05513262-beb0-437a-86f0-f060a99f00a4")
+	)
+	(label "GND"
+		(at 423.23 178.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0823a75b-676b-4d8d-bea5-61c8d5bffa77")
+	)
+	(label "J1_SW"
+		(at 226.38 200.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1725be47-c954-499a-b05f-f3ca49d985f1")
+	)
+	(label "GND"
+		(at 423.23 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1953eb2c-b809-4f5e-b7f7-5395d35e4c51")
+	)
+	(label "PWM_CH1_Shoulder"
+		(at 423.23 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1db43a2b-251b-4667-a11b-48dc66e2f11b")
+	)
+	(label "PWM_CH5_Grip"
+		(at 384.85 202.545 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ed1c922-f043-4e15-9d05-8ceedace45fd")
+	)
+	(label "SERVO_PWR_5V6V"
+		(at 423.23 251.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2194507e-3820-47bd-a383-c3dc75358195")
+	)
+	(label "J1_Y"
+		(at 226.38 181.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a49b11b-aff3-4d61-9308-e41bd7b4d5a6")
+	)
+	(label "I2C_SCL"
+		(at 306.75 189.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "312da73e-674c-4055-9235-e909cafe05a7")
+	)
+	(label "J3_X"
+		(at 166.69 239.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4364313f-242e-492b-820a-ae9b58473491")
+	)
+	(label "J3_X"
+		(at 226.38 192.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4424d965-ba64-48be-8c2a-9acade3d21de")
+	)
+	(label "SERVO_PWR_5V6V"
+		(at 423.23 99.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49f1c7e3-c6bc-4a74-898b-b1ed2e6648a0")
+	)
+	(label "+5V_LOGIC"
+		(at 166.69 232.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e10800c-7be0-48fa-b769-df085ba9703e")
+	)
+	(label "J1_X"
+		(at 166.69 146.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55e2a74d-7aa6-438a-a805-fc88d3f74a98")
+	)
+	(label "PWM_CH4_Rotate"
+		(at 384.85 198.735 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59941f04-56e7-43dd-bfab-c1508b77e144")
+	)
+	(label "PWM_CH5_Grip"
+		(at 423.23 285.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f63ab90-49c5-4408-b5f4-ee6efa0a722d")
+	)
+	(label "J2_Y"
+		(at 166.76 196.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60ffc074-b458-429e-b73c-d06e1818a847")
+	)
+	(label "GND"
+		(at 306.75 196.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6614c107-c1fe-4dcf-a3c3-9b2684da8c34")
+	)
+	(label "+5V_LOGIC"
+		(at 306.75 193.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6758f186-d042-4900-90ae-65dd4e6625a2")
+	)
+	(label "SERVO_PWR_5V6V"
+		(at 423.23 213.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "679af8e3-224f-448d-8365-139345250c40")
+	)
+	(label "GND"
+		(at 423.23 292.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67de33e1-26cf-4aff-b3ca-90c935bd34d9")
+	)
+	(label "J3_Y"
+		(at 226.38 196.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6afcda3c-cff5-4600-906f-b481c19bfe99")
+	)
+	(label "GND"
+		(at 423.23 102.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78bd5ab0-844f-4b9e-9b7d-9cd72cee0380")
+	)
+	(label "+5V_LOGIC"
+		(at 166.76 185.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84b84613-d4fd-4283-8323-e320f461a82f")
+	)
+	(label "+5V_LOGIC"
+		(at 166.69 139.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cca2970-af60-40ae-bd4d-34d2004fd74b")
+	)
+	(label "SERVO_PWR_5V6V"
+		(at 423.23 175.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9514f25f-73d4-4121-9f4e-44d8441a4045")
+	)
+	(label "I2C_SDA"
+		(at 226.38 204.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9678382e-c36c-4f94-9b5f-63c4f8bccd12")
+	)
+	(label "PWM_CH3_Wrist"
+		(at 384.85 194.925 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a635b9a-26d6-4c20-962f-51cd810d327a")
+	)
+	(label "PWM_CH1_Shoulder"
+		(at 384.85 187.305 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a25ba801-d622-4614-b85c-e57a9f864bd0")
+	)
+	(label "GND"
+		(at 166.69 235.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a408169a-890c-4b44-9206-0f4e660ab32f")
+	)
+	(label "I2C_SDA"
+		(at 306.75 185.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa03b160-7f70-4f57-a030-e482d765200e")
+	)
+	(label "PWM_CH2_Elbow"
+		(at 423.23 171.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afd3bd73-ffb1-4563-965b-e8449c1140cb")
+	)
+	(label "J1_SW"
+		(at 166.69 154.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9fa8b00-d8c1-498d-8ce0-b8d501c4e515")
+	)
+	(label "I2C_SCL"
+		(at 226.38 207.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "baf13d75-8f59-46fc-b962-be5ee6cd5afe")
+	)
+	(label "J2_Y"
+		(at 226.38 188.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bddfa195-b272-4979-96e5-e3cae475a58d")
+	)
+	(label "GND"
+		(at 423.23 254.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0cc8064-f1cc-4449-b520-2a7e5d4538d3")
+	)
+	(label "PWM_CH0_Base"
+		(at 423.23 95.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c20fc10f-12ef-4621-95bc-e8b80fb93004")
+	)
+	(label "J2_X"
+		(at 166.76 192.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d108c87d-001d-4c54-838d-2840b4d2be45")
+	)
+	(label "GND"
+		(at 423.23 216.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d91f4c75-7a91-484c-b6bc-8ec4b6637a16")
+	)
+	(label "SERVO_PWR_5V6V"
+		(at 423.23 289.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da1486de-71e8-46c8-8a4f-fc3b5cd27c3d")
+	)
+	(label "PWM_CH3_Wrist"
+		(at 423.23 209.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db9578f1-fcfd-4a2b-96ad-80c71d733325")
+	)
+	(label "PWM_CH0_Base"
+		(at 384.85 183.495 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcf830ac-603e-4b5a-9265-d8915dbe7453")
+	)
+	(label "SERVO_PWR_5V6V"
+		(at 306.75 200.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df50bcf5-5d32-468b-bb18-2718b904b566")
+	)
+	(label "SERVO_PWR_5V6V"
+		(at 423.23 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfcf2968-7922-4d4e-80ef-7ee58b74c1f2")
+	)
+	(label "PWM_CH2_Elbow"
+		(at 384.85 191.115 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5ecc604-670c-4f20-a203-d7d19192bd05")
+	)
+	(label "GND"
+		(at 166.69 143.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e89012fc-a021-477c-b26b-e843c855c008")
+	)
+	(label "J1_Y"
+		(at 166.69 150.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eebd566d-8087-4d91-b8c4-a9e58eeb99b5")
+	)
+	(label "PWM_CH4_Rotate"
+		(at 423.23 247.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef8741db-2bbd-4c3a-9007-a84c596aa6a1")
+	)
+	(label "GND"
+		(at 166.76 188.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f11f3787-c7d6-4f8d-99de-864cb692d87b")
+	)
+	(label "J2_X"
+		(at 226.38 185.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4506ba1-7177-4ffd-b090-2816a22ed417")
+	)
+	(label "J3_Y"
+		(at 166.69 243.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa17ab77-0f42-4855-90d1-2ab46da4752c")
+	)
+	(symbol
+		(lib_id "VArm6:Joystick_5pin")
+		(at 203.2 146.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ffa49e3-4e8e-4421-953d-fffa3ead12a4")
+		(property "Reference" "J1"
+			(at 203.2 143.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J1"
+			(at 203.2 150.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 146.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 146.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 146.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "428f9848-c811-47e1-910d-b6198dea1dd9")
+		)
+		(pin "5"
+			(uuid "f48b959c-4c6c-4d23-b629-3efa9ec345ca")
+		)
+		(pin "2"
+			(uuid "61b02d2c-6506-4965-b999-45d168b8ac87")
+		)
+		(pin "4"
+			(uuid "033e006e-a6e0-4d7a-861a-76c5aa5bc607")
+		)
+		(pin "1"
+			(uuid "ac6374b1-16df-4193-a3f9-04fe80b0a608")
+		)
+		(instances
+			(project "VArm6"
+				(path "/241efc51-4863-451d-81aa-6bc086b61b32"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VArm6:PCA9685")
+		(at 345.8 193.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63ecb8c0-c743-49c8-ac3a-442b0913a3be")
+		(property "Reference" "U2"
+			(at 345.8 189.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U2"
+			(at 345.8 196.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.8 193.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.8 193.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 345.8 193.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "CH2"
+			(uuid "beb9b6c2-ca1a-459f-aaac-6d23209e7cbf")
+		)
+		(pin "CH4"
+			(uuid "d6ecc922-c93c-4cdc-8956-bafc407b3092")
+		)
+		(pin "CH1"
+			(uuid "a35babbb-43c2-4556-aeaa-b23a2f9afd70")
+		)
+		(pin "CH0"
+			(uuid "b944c34f-1e4a-4c5f-a8e6-0a10ed7bf2dd")
+		)
+		(pin "CH3"
+			(uuid "90c74c69-f2f9-4a70-a988-76e7147b2408")
+		)
+		(pin "CH5"
+			(uuid "e2b984a9-d17a-471d-9671-3d753a6c19ef")
+		)
+		(pin "SCL"
+			(uuid "21b9dcdb-c5c4-4f19-9de2-0e563b681993")
+		)
+		(pin "GND"
+			(uuid "44556364-19b8-4613-b362-0e9429d9b363")
+		)
+		(pin "SDA"
+			(uuid "60779266-52f3-4160-8804-6eec38b67bb8")
+		)
+		(pin "V+"
+			(uuid "33f3b708-735f-4aff-8327-d3fafc2e304e")
+		)
+		(pin "VCC"
+			(uuid "e9e0453e-8982-4e1c-a5af-7111231968d9")
+		)
+		(instances
+			(project "VArm6"
+				(path "/241efc51-4863-451d-81aa-6bc086b61b32"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VArm6:Servo_3pin")
+		(at 458.47 213.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fdce704-b7f1-4b09-99b7-8127c9ab6f48")
+		(property "Reference" "S4"
+			(at 458.47 209.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S4"
+			(at 458.47 216.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 213.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 213.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 458.47 213.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4761b46-2300-4628-a5c9-47cca4fcf306")
+		)
+		(pin "2"
+			(uuid "cd57fc28-74e3-4540-b93d-7a62d17fe705")
+		)
+		(pin "3"
+			(uuid "db7abec2-0e46-4c93-a37b-d1c6138d84b2")
+		)
+		(instances
+			(project "VArm6"
+				(path "/241efc51-4863-451d-81aa-6bc086b61b32"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VArm6:Servo_3pin")
+		(at 458.47 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8124c967-bde2-40fc-9012-5c1de15e1434")
+		(property "Reference" "S2"
+			(at 458.47 133.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S2"
+			(at 458.47 140.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 458.47 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ab6ab4f-5df3-4583-97d4-628b4777f2d3")
+		)
+		(pin "3"
+			(uuid "7a6982a4-5f9e-4606-9d7d-9e82e566bff3")
+		)
+		(pin "1"
+			(uuid "1e73572a-d426-40b9-ad4d-9fc70f805e1b")
+		)
+		(instances
+			(project "VArm6"
+				(path "/241efc51-4863-451d-81aa-6bc086b61b32"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VArm6:Servo_3pin")
+		(at 458.47 99.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9060f03e-20c8-415b-8a6d-a177674df315")
+		(property "Reference" "S1"
+			(at 458.47 95.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S1"
+			(at 458.47 102.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 99.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 99.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 458.47 99.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "06300484-702c-4177-87f8-b1364de3eb3c")
+		)
+		(pin "2"
+			(uuid "ddc7181d-6f63-4fc5-96e0-3e91f24d940e")
+		)
+		(pin "1"
+			(uuid "0db8e360-45d6-40fd-ae81-9332848083bf")
+		)
+		(instances
+			(project "VArm6"
+				(path "/241efc51-4863-451d-81aa-6bc086b61b32"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VArm6:Servo_3pin")
+		(at 458.47 289.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9aab9f28-412b-42fa-8bbf-7f4298f78e89")
+		(property "Reference" "S6"
+			(at 458.47 285.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S6"
+			(at 458.47 292.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 289.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 289.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 458.47 289.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48e69045-80f6-4509-adcf-6a50e348d0fa")
+		)
+		(pin "2"
+			(uuid "90b3f43a-bdff-4056-bc2a-9d67eae81946")
+		)
+		(pin "3"
+			(uuid "0877445c-8358-4305-a69a-30d13d2611d0")
+		)
+		(instances
+			(project "VArm6"
+				(path "/241efc51-4863-451d-81aa-6bc086b61b32"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VArm6:Joystick_5pin")
+		(at 203.2 239.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dade2d21-0974-4992-92de-92be2125af5e")
+		(property "Reference" "J3"
+			(at 203.2 236.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J3"
+			(at 203.2 243.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 239.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 239.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 239.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c5c1813c-3b3d-4615-90ff-cf191cc10383")
+		)
+		(pin "1"
+			(uuid "4eb2ea5e-69c3-4989-a0f1-2a4e0e5776a5")
+		)
+		(pin "5"
+			(uuid "0cd71616-4f6f-4a09-b258-dff79f80fee7")
+		)
+		(pin "3"
+			(uuid "57047285-80b9-4cac-b491-7c711a4ef1bf")
+		)
+		(pin "4"
+			(uuid "bbdf2dc7-7714-4fe6-9749-c5369d81575a")
+		)
+		(instances
+			(project "VArm6"
+				(path "/241efc51-4863-451d-81aa-6bc086b61b32"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VArm6:Servo_3pin")
+		(at 458.47 175.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd10f97a-f121-4ff5-b27d-bd50ba1b3c8a")
+		(property "Reference" "S3"
+			(at 458.47 171.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S3"
+			(at 458.47 178.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 175.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 175.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 458.47 175.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b149c2e7-ddaf-46ad-a1aa-3542b6a1ab3b")
+		)
+		(pin "1"
+			(uuid "f44a2f9b-346d-4b75-a516-9978961accd2")
+		)
+		(pin "3"
+			(uuid "b4662205-1663-49ca-b55a-10d405cd6fbe")
+		)
+		(instances
+			(project "VArm6"
+				(path "/241efc51-4863-451d-81aa-6bc086b61b32"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VArm6:Servo_3pin")
+		(at 458.47 251.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de5093ad-4ce3-4096-af8b-996eee9a4980")
+		(property "Reference" "S5"
+			(at 458.47 247.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S5"
+			(at 458.47 254.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 458.47 251.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 458.47 251.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 458.47 251.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6d76f83f-24af-4df1-a4eb-6cec7c946177")
+		)
+		(pin "2"
+			(uuid "f18d5c10-0636-4926-93a7-c603ed8fc672")
+		)
+		(pin "1"
+			(uuid "8bc6ca5d-48ae-446d-81d4-47ec28ff3e37")
+		)
+		(instances
+			(project "VArm6"
+				(path "/241efc51-4863-451d-81aa-6bc086b61b32"
+					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VArm6:Joystick_5pin")
+		(at 203.27 192.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4c6296f-ba5b-4780-8fec-bbb7af4399a2")
+		(property "Reference" "J2"
+			(at 203.27 189.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J2"
+			(at 203.27 196.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.27 192.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.27 192.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.27 192.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "56c92879-b880-4c4b-b7a7-df4c8e7b1b45")
+		)
+		(pin "1"
+			(uuid "053ca1f1-c6a6-441b-a859-8d1f6ee9f92d")
+		)
+		(pin "2"
+			(uuid "cdbcdffa-6f77-401b-833e-536335ce1c2a")
+		)
+		(pin "5"
+			(uuid "e8ff95dc-1394-41e3-866b-1312697e7447")
+		)
+		(pin "3"
+			(uuid "46c0c76d-1831-48e2-8623-c657dbd5f295")
+		)
+		(instances
+			(project "VArm6"
+				(path "/241efc51-4863-451d-81aa-6bc086b61b32"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VArm6:Arduino_Mega2560")
+		(at 269.24 192.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff606add-7f3e-4bdd-97f7-422520cd011e")
+		(property "Reference" "U1"
+			(at 269.24 189.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U1"
+			(at 269.24 196.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 192.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 192.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 192.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "52ea3245-ea8b-4143-90cb-ff5f26890d40")
+		)
+		(pin "A10"
+			(uuid "cf32244a-ef02-4840-b22e-2d9220cbf2d5")
+		)
+		(pin "21"
+			(uuid "2b4aafa8-133d-4448-bebe-b269ac4fffd2")
+		)
+		(pin "A8"
+			(uuid "339b0241-a892-4260-9a47-7d90c429531b")
+		)
+		(pin "VIN"
+			(uuid "ea0bdc8a-769b-4ba6-919a-06ca49a744b2")
+		)
+		(pin "A11"
+			(uuid "2091109d-8377-42c4-9d6c-156429b16ad5")
+		)
+		(pin "5V"
+			(uuid "a9528654-35f2-40f5-98f2-99b03b7ce37e")
+		)
+		(pin "A13"
+			(uuid "ba0c8df9-e851-493c-b479-0992501bc1f5")
+		)
+		(pin "20"
+			(uuid "7cb77b88-1dbb-40ac-8ce9-8101199c19ee")
+		)
+		(pin "A12"
+			(uuid "76d5a281-4efe-4914-be1d-301001fe4544")
+		)
+		(pin "D18"
+			(uuid "21bfdcec-0a51-4059-9415-5fdd92845a1d")
+		)
+		(pin "A9"
+			(uuid "86bcd379-0efc-4ed2-94ba-a2f4801c87f6")
+		)
+		(instances
+			(project "VArm6"
+				(path "/241efc51-4863-451d-81aa-6bc086b61b32"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
